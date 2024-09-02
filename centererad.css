@@ -1,0 +1,61 @@
+html, body {
+    margin: 0px;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: system-ui;
+
+}
+
+h1, h2, p{
+    max-width: 80ch;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.hero {
+    background-color: blueviolet;
+    height: 50vh;
+
+
+    padding: 3rem;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    color: white;
+}
+
+.cta {
+    display: black;
+    color: white;
+    font-size: 2rem;
+}
+
+nav > ul {
+    font-size: 3rem;
+    
+}
+
+
+
+.hero a {
+    font-size: 2rem;
+    color: white;
+    background-color: darkgreen;
+    margin-top: 2rem;
+    padding: 5rem;
+    border: .1em solid black;
+    width: auto;
+}
